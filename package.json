@@ -1,0 +1,23 @@
+{
+  "name": "autorepairapp",
+  "version": "1.0.0",
+  "description": "auto repair app using clean architecture",
+  "homepage": "https://github.com/daVila-Mmm/AutoRepairApp#readme",
+  "bugs": {
+    "url": "https://github.com/daVila-Mmm/AutoRepairApp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/daVila-Mmm/AutoRepairApp.git"
+  },
+  "license": "ISC",
+  "author": "daVila-Mmm",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
