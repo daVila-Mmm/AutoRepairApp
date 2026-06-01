@@ -40,6 +40,10 @@ export class Item {
         this.itemProperties.itemPrice = newPrice;
     }
 
+    getItemId(): number | string | undefined {
+        return this.itemProperties.itemId;
+    }
+
     getItemName(): string {
         return this.itemProperties.itemName;
     }

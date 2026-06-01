@@ -27,6 +27,10 @@ export class Service {
         this.serviceProperties.servicePrice = newPrice;
     }
 
+    getServiceId(): number | string | undefined {
+        return this.serviceProperties.serviceId;
+    }
+
     getServiceName(): string {
         return this.serviceProperties.serviceName;
     }
